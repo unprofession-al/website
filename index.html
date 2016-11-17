@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>unprofession.al</title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
-            }
+            color: #333;
+            font-family: 'Space Mono', monospace;
+        }
         main {
             position: relative;
             background: white;
@@ -17,27 +19,60 @@
             margin: 0 auto;
             resize: both;
             overflow: auto;
-            }
+        }
         main .centered {
             width: 50%;
             transform: translate(-50%, -50%);
             position: absolute;
-            top: 50%;
+            top: 45%;
             left: 50%;
             padding: 20px;
             resize: both;
             text-align: center;
-            }
-        .comic {
-            color: #999;
-            font-family: 'Playfair Display', serif;
+        }
+        .splash {
+            text-align: left;
+        }
+        .notstretched {
+            display:inline-block;
+        }
+        .heading {
             font-size: 20pt;
-            }
+        }
+        .marked {
+            background-color: yellow;
+        }
+        .text {
+            font-size: 12pt;
+        }
+        .devider {
+            width: 60px;
+            border-bottom: solid #333 3px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
     <main>
-        <div class="centered comic">unprofession.al</div>
+        <div class="centered">
+            <div class="splash notstretched">
+                <div class="heading">
+                    unprofessional
+                </div>
+                <div class="devider"></div>
+                <div class="text marked notstretched">
+                    /ʌnprəˈfɛʃ(ə)n(ə)l/
+                </div>
+                <div class="devider"></div>
+                <div class="text">
+                    i build software. <br>
+                    mainly for fun. <br>
+                    very unprofessional.
+                </div>
+            </div>
+        </div>
+
     </main>
 </body>
 </html>
