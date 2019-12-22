@@ -8,7 +8,7 @@
 
 Text replacement is probably one of the most widely used things a computer can do for us: Bulk letters, the early days 
 of configuration management, code refactoring, basic template rendering... string substitution is used everywhere. As a
-IT infrastructure person beloved tools like `sed` and `awk` make a lot of my work easier. `:%s/.../.../g` one of the few 
+IT infrastructure person beloved tools like `sed` and `awk` make a lot of my work easier. `:%s/.../.../g` is one of the few 
 `vim` commands I will hardly ever forget. And I maintain strong hate/love relationship with
 [regular expressions](https://en.wikipedia.org/wiki/Regular_expression).
 
