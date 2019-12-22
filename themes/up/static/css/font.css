@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('/fonts/iAWriterDuospace-Regular.eot');
+    src: url('/fonts/iAWriterDuospace-Regular.woff2') format('woff2'),
+         url('/fonts/iAWriterDuospace-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('/fonts/iAWriterDuospace-RegularItalic.eot');
+    src: url('/fonts/iAWriterDuospace-RegularItalic.woff2') format('woff2'),
+         url('/fonts/iAWriterDuospace-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('/fonts/iAWriterDuospace-Bold.eot');
+    src: url('/fonts/iAWriterDuospace-Bold.woff2') format('woff2'),
+         url('/fonts/iAWriterDuospace-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iAWriterDuospace';
+    src: url('/fonts/iAWriterDuospace-BoldItalic.eot');
+    src: url('/fonts/iAWriterDuospace-BoldItalic.woff2') format('woff2'),
+         url('/fonts/iAWriterDuospace-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}

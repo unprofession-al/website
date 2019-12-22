@@ -1,0 +1,42 @@
+/* Layout */
+:root {
+}
+
+/* Colors */
+:root {
+}
+
+/* Typo */
+
+:root {
+    --font-size-large: 28px;
+    --line-height-large: 40px;
+
+    --font-size-medium: 24px;
+    --line-height-medium: 32px;
+
+    --font-size-regular: 16px;
+    --line-height-regular: 26px;
+
+    --font-size-small: 12px;
+    --line-height-small: 22px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    :root {
+        --font-size-large: 38px;
+        --line-height-large: 52px;
+
+        --font-size-medium: 32px;
+        --line-height-medium: 40px;
+
+        --font-size-regular: 20px;
+        --line-height-regular: 34px;
+
+        --font-size-small: 16px;
+        --line-height-small: 24px;
+    }
+}
+
+
