@@ -1,0 +1,32 @@
+{{ define "title" }}
+{{ .Title }}
+{{ end }}
+
+{{ define "content" }}
+<h1>{{ .Title }}</h1>
+{{ range .Pages }}
+    {{ if isset .Params "not_yet_published" }}
+    <div class="element">
+        <div class="meta">
+            <span class="goto">
+                {{ .Title }}
+                <span class="date">soon to come</span>
+            </span>
+        </div>
+    </div>
+    {{ else }}
+    <div class="element">
+        <div class="meta">
+            <span class="goto">
+                <a href="{{ .URL }}">{{ .Title }}</a>
+            </span>
+            <span class="date">{{ .PublishDate.Format "January 2, 2006" }}</span>
+        </div>
+        <span class="summary">{{.Summary}}</span>
+    </div>
+    {{ end }}
+{{ else }}
+    Nothing to see here (yet), move along...
+{{ end }}
+{{ end }}
+

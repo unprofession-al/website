@@ -1,0 +1,10 @@
+html, body {
+    background-color: rgba(254,254,254,1);
+}
+
+.main {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px;
+}
+

@@ -1,0 +1,24 @@
+html, body {
+    background: rgb(229,0,133);
+    background: -moz-linear-gradient(left, rgba(229,0,133,1) 0%, rgba(255,7,7,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(229,0,133,1) 0%,rgba(255,7,7,1) 100%);
+    background: linear-gradient(to right, rgba(229,0,133,1) 0%,rgba(255,7,7,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50085', endColorstr='#ff0707',GradientType=1 );
+}
+.logo {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 84%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.main svg .letter {
+    fill: rgba(255,255,255,1)
+}
+
+.navigation ul li a {
+    color: rgba(255,255,255,1);
+}
