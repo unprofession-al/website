@@ -1,99 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Serif&display=swap');
-
 html, body {
-    font-family: 'IBM Plex Serif';
-    font-weight: regular;
     background-color: rgba(254,254,254,1);
-    font-size: var(--font-size-regular);
-    line-height: var(--line-height-regular);
 }
 
 .main {
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     padding: 50px;
-}
-
-.text h1 {
-    font-family: 'IBM Plex Sans';
-    font-size: var(--font-size-large);
-    line-height: var(--line-height-large);
-}
-
-.text h2 {
-    font-family: 'IBM Plex Sans';
-    font-size: var(--font-size-medium);
-    line-height: var(--line-height-medium);
-    font-weight: bold;
-    font-style: italic;
-}
-
-.text h3 {
-    font-family: 'IBM Plex Sans';
-    font-size: var(--font-size-medium);
-    line-height: var(--line-height-medium);
-    font-style: italic;
-}
-
-.text h4 {
-    font-family: 'IBM Plex Sans';
-    font-size: var(--font-size-regular);
-    line-height: var(--line-height-regular);
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.text p {
-    padding-bottom: 1em;
-}
-
-.text em {
-    font-style: italic;
-}
-
-.text strong {
-    font-weight: bold;
-}
-
-.text a {
-    color: rgb(229,0,133);
-    text-decoration: none;
-}
-
-.text a:hover {
-    color: rgb(229,0,133);
-    text-decoration: none;
-    font-style: italic;
-}
-
-.text ul {
-    list-style: square inside;
-    margin-left:10px;
-    padding-bottom: 1em;
-}
-
-.text table th {
-    border-top: 1px solid #ddd;
-}
-
-.text table th, td {
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-.text pre {
-    background-color: rgba(229,0,133, .3);
-    padding: 15px;
-    overflow-x: auto;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-}
-
-.text code {
-    font-family: 'IBM Plex Mono';
 }
 

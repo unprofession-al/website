@@ -2,7 +2,9 @@
 {
     "title": "On Text Substitution",
     "subtitle": "The \"Complex\" Details of a Simple Process",
-    "date": "2019-12-22"
+    "date": "2019-01-22",
+    "author": "Daniel Menet",
+    "not_yet_published": "true"
 }
 ---
 
@@ -99,7 +101,6 @@ done
 # printing to STDOUT and removing temp file
 cat "$TMPFILE"
 rm $TMPFILE
-
 ```
 
 The script takes two arguments: the first is our configuration, the second is the file to process.

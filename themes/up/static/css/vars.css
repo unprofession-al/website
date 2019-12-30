@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:200,200i,300,300i,400,400i,600,600i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400&display=swap');
+
 /* Layout */
 :root {
 }
 
 /* Colors */
 :root {
+    --main-color: rgba(229, 0, 133, 1);
+    --main-color-light: rgba(229, 0, 133, .2);
 }
 
 /* Typo */
 
 :root {
-    --font-size-large: 28px;
-    --line-height-large: 40px;
+    --font-size-large: 24px;
+    --line-height-large: 32px;
 
-    --font-size-medium: 24px;
-    --line-height-medium: 32px;
+    --font-size-medium: 16px;
+    --line-height-medium: 26px;
 
     --font-size-regular: 16px;
     --line-height-regular: 26px;
@@ -21,22 +26,23 @@
     --font-size-small: 12px;
     --line-height-small: 22px;
 
+    --font-family-body: 'Exo 2', sans-serif;
+    --font-family-headers: 'Exo 2', sans-serif;
+    --font-family-code: 'Courier Prime', sans-serif;
 }
 
 @media only screen and (min-width: 600px) {
     :root {
-        --font-size-large: 38px;
-        --line-height-large: 52px;
+        --font-size-large: 32px;
+        --line-height-large: 42px;
 
-        --font-size-medium: 32px;
-        --line-height-medium: 40px;
+        --font-size-medium: 24px;
+        --line-height-medium: 30px;
 
-        --font-size-regular: 20px;
-        --line-height-regular: 34px;
+        --font-size-regular: 18px;
+        --line-height-regular: 27px;
 
-        --font-size-small: 16px;
-        --line-height-small: 24px;
+        --font-size-small: 14px;
+        --line-height-small: 21px;
     }
 }
-
-
