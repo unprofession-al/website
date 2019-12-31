@@ -15,7 +15,7 @@
 
 .navigation {
     float: right;
-    width: 40%;
+    width: var(--nav-width);
 }
 
 .navigation ul {

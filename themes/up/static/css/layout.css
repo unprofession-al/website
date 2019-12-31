@@ -5,6 +5,6 @@ html, body {
 .main {
     max-width: 900px;
     margin: auto;
-    padding: 50px;
+    padding: var(--main-padding);
 }
 

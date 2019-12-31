@@ -3,6 +3,17 @@
 
 /* Layout */
 :root {
+    --main-padding: 20px;
+    --main-indent: 10px;
+    --nav-width: 140px;
+}
+
+@media only screen and (min-width: 600px) {
+    :root {
+        --main-padding: 50px;
+        --main-indent: 20px;
+        --nav-width: 300px;
+    }
 }
 
 /* Colors */

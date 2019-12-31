@@ -6,12 +6,12 @@ html, body {
 }
 
 .text {
-    margin-left: 20px;
+    margin-left: var(--main-indent);
 }
 
 .text h1 {
     color: var(--main-color);
-    margin-left: -20px;
+    margin-left: calc(var(--main-indent) * -1);
     font-weight: 300;
     font-family: var(--font-family-headers);
     font-size: var(--font-size-large);
@@ -22,7 +22,7 @@ html, body {
 
 .text h2 {
     color: var(--main-color);
-    margin-left: -20px;
+    margin-left: calc(var(--main-indent) * -1);
     font-weight: 300;
     font-family: var(--font-family-headers);
     font-size: var(--font-size-medium);
@@ -32,7 +32,7 @@ html, body {
 }
 
 .text h3 {
-    margin-left: -20px;
+    margin-left: calc(var(--main-indent) * -1);
     font-weight: 600;
     font-family: var(--font-family-headers);
     font-size: var(--font-size-regular);
