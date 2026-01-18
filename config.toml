@@ -1,7 +1,0 @@
-baseURL = "https://very.unprofession.al/"
-languageCode = "en-us"
-title = "Unprofessional"
-theme = "up"
-
-[params]
-  author = "Daniel Menet"
